@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Questrial&display=swap');
+.navBrandStyle{
+  font-family:"Questrial";
+}
+
+#home,#about,#login,#signup,#contact,#profile{
+  color:white;
+  transition: 0.2s;
+  font-family: "Questrial";
+}
+
+#home:hover{
+  color:	#d9534f;
+  background-color:white;
+}
+#about:hover{
+  color:	#d9534f;
+  background-color:white;
+}
+#login:hover{
+  color:	#d9534f;
+  background-color:white;
+}
+#signup:hover{
+  color:	#d9534f;
+  background-color:white;
+}
+#contact:hover{
+  color:	#d9534f;
+  background-color:white;
+}
+#profile:hover{
+  color:	#d9534f;
+  background-color:white;
+}
