@@ -4,7 +4,6 @@ import 'jquery';
 import 'bootstrap';
 import './header.css';
 
-const is_logged_in = false;
 
 function login_false() {
   return (
@@ -20,13 +19,7 @@ function login_false() {
       </li>
       <li className="nav-item">
         <a className="nav-link" id="about"  href="#">About</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link"  id="login" href="#">Login</a>
-      </li>    
-      <li className="nav-item">
-        <a className="nav-link"  id="signup" href="#">Sign up</a>
-      </li>  
+      </li> 
       <li className="nav-item">
         <a className="nav-link" id="contact"  href="#">Contact Us</a>
       </li>  
@@ -65,7 +58,7 @@ function login_true() {
 
 function Header(){
  
-  if(is_logged_in === true){
+  if(false){
     return login_true();
   }else{
     return login_false();
